@@ -4,8 +4,9 @@ import android.provider.SyncStateContract
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.praveene.dominosapp.data.model.ResponseItem
+import com.praveene.dominosapp.util.Constants
 
-@Entity(tableName = SyncStateContract.Constants.RESPONSE_MODEL_TABLE)
+@Entity(tableName = Constants.RESPONSE_MODEL_TABLE)
 
 class ResponseEntity (
     val responseItem:MutableList<ResponseItem>

@@ -3,6 +3,7 @@ package com.praveene.dominosapp.di
 import android.content.Context
 import androidx.room.Room
 import com.praveene.dominosapp.data.local.ResponseDatabase
+import com.praveene.dominosapp.util.Constants.ROOM_DATABASE_NAME
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

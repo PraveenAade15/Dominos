@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <navigation app:startDestination="@id/itemFragment" android:id="@+id/main_navigation" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <fragment android:id="@+id/itemFragment" tools:layout="@layout/fragment_item" android:label="Item List" android:name="com.praveene.dominosapp.ui.fragments.ItemFragment">
+
+    <action android:id="@+id/action_itemFragment_to_detailsFragment" app:destination="@id/detailsFragment"/>
+
+</fragment>
+
+
+    -<fragment android:id="@+id/detailsFragment" tools:layout="@layout/fragment_details" android:label="Item Details" android:name="com.praveene.dominosapp.ui.fragments.DetailsFragment">
+
+    <argument android:name="responseitem" app:argType="com.manish.androidassignment.data.model.ResponseModelItem"/>
+
+</fragment>
+
+</navigation>

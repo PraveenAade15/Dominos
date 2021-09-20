@@ -1,6 +1,7 @@
 package com.praveene.dominosapp.di
 
 import com.praveene.dominosapp.data.network.ResponseApi
+import com.praveene.dominosapp.util.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
